@@ -477,6 +477,10 @@
       {
         "netclass": "LOGIC",
         "pattern": "USB_D-"
+      },
+      {
+        "netclass": "LOGIC",
+        "pattern": "LIN_A"
       }
     ]
   },
@@ -611,6 +615,10 @@
     [
       "4aaefc51-fed2-40e1-869f-63f1a36432a1",
       "imu"
+    ],
+    [
+      "548828d3-22b9-430d-b0ff-f29588e18b03",
+      "NRF"
     ]
   ],
   "text_variables": {}

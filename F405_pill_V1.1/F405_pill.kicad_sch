@@ -7437,6 +7437,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 168.91) (xy 142.24 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b769dac-7b8a-4903-bd4a-b1b1114faf6e")
+	)
+	(wire
+		(pts
 			(xy 327.66 232.41) (xy 342.9 232.41)
 		)
 		(stroke
@@ -7954,6 +7964,16 @@
 			(type default)
 		)
 		(uuid "bfa9d132-2c3f-4b2f-9875-8b9afdff9b20")
+	)
+	(wire
+		(pts
+			(xy 120.65 171.45) (xy 142.24 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1068199-e5c5-4b6c-b9d5-aaefd6581927")
 	)
 	(wire
 		(pts
@@ -8518,7 +8538,7 @@
 	)
 	(text "NC\nGND\nV3V3\nADC SPI1SCK DAC TIM2\nADC SPI1MISO TIM3\nJP3 / FET TEMP\nA_PHC_VSENSE\nJP2 / MOTOR TEMP / SPI1MOSI\nA_PHB_VSENSE\nA_PHA_VSENSE\nA_SHC_AMP\nA_SHB_AMP\nA_SHA_AMP\nVSENSE\nA_THROTTLE\nJP3 / FET TEMP\nHALL_C\nHALL_B\nHALL_A\nNC"
 		(exclude_from_sim no)
-		(at 359.918 76.073 0)
+		(at 367.03 75.692 0)
 		(effects
 			(font
 				(size 1.56 1.56)
@@ -8551,7 +8571,7 @@
 	)
 	(text "A_OVERLIMIT\nLIN_A\nLIB_B\nLIB_C\nHIN_A\nHIN_B\nHIN_C\nTX3 SCL2 + ADC\nRX3 SDA2 + ADC\nSCK3 TX4\nMISO3 TIM3 RX4\nMOSI3, TIM3 CANRX\nTIM4 TX1 SCL1 CANTX\nRX1 SDA1 TIM4\nSPI3 MOSI / GPIO\nSPI3 MISO RX4\nSPI3 SCK TX4\nV5V\nGND\nV3V3"
 		(exclude_from_sim no)
-		(at 313.436 75.692 0)
+		(at 308.356 75.692 0)
 		(effects
 			(font
 				(size 1.56 1.56)
@@ -8736,7 +8756,7 @@
 			)
 		)
 	)
-	(global_label "PA0"
+	(global_label "A_PHA_VSENSE"
 		(shape input)
 		(at 187.96 92.71 0)
 		(fields_autoplaced yes)
@@ -8780,7 +8800,7 @@
 			)
 		)
 	)
-	(global_label "PA9"
+	(global_label "HIN_B"
 		(shape input)
 		(at 322.58 39.37 180)
 		(fields_autoplaced yes)
@@ -8824,7 +8844,7 @@
 			)
 		)
 	)
-	(global_label "PA4"
+	(global_label "A_THROTTLE"
 		(shape input)
 		(at 350.52 62.23 0)
 		(fields_autoplaced yes)
@@ -8956,7 +8976,7 @@
 			)
 		)
 	)
-	(global_label "PB15"
+	(global_label "LIN_C"
 		(shape input)
 		(at 322.58 34.29 180)
 		(fields_autoplaced yes)
@@ -9022,7 +9042,7 @@
 			)
 		)
 	)
-	(global_label "PC8"
+	(global_label "HALL_A"
 		(shape input)
 		(at 350.52 72.39 0)
 		(fields_autoplaced yes)
@@ -9110,7 +9130,7 @@
 			)
 		)
 	)
-	(global_label "PA2"
+	(global_label "A_PHC_VSENSE"
 		(shape input)
 		(at 387.096 99.568 180)
 		(fields_autoplaced yes)
@@ -9154,7 +9174,7 @@
 			)
 		)
 	)
-	(global_label "PA2"
+	(global_label "A_PHC_VSENSE"
 		(shape input)
 		(at 187.96 97.79 0)
 		(fields_autoplaced yes)
@@ -9198,7 +9218,7 @@
 			)
 		)
 	)
-	(global_label "PB13"
+	(global_label "LIN_A"
 		(shape input)
 		(at 187.96 168.91 0)
 		(fields_autoplaced yes)
@@ -9242,7 +9262,7 @@
 			)
 		)
 	)
-	(global_label "PC2"
+	(global_label "A_SHC_AMP"
 		(shape input)
 		(at 350.52 52.07 0)
 		(fields_autoplaced yes)
@@ -9396,7 +9416,7 @@
 			)
 		)
 	)
-	(global_label "PA4"
+	(global_label "A_THROTTLE"
 		(shape input)
 		(at 187.96 102.87 0)
 		(fields_autoplaced yes)
@@ -9418,7 +9438,7 @@
 			)
 		)
 	)
-	(global_label "PC1"
+	(global_label "A_SHB_AMP"
 		(shape input)
 		(at 187.96 181.61 0)
 		(fields_autoplaced yes)
@@ -9462,7 +9482,7 @@
 			)
 		)
 	)
-	(global_label "PC8"
+	(global_label "HALL_A"
 		(shape input)
 		(at 187.96 199.39 0)
 		(fields_autoplaced yes)
@@ -9484,7 +9504,7 @@
 			)
 		)
 	)
-	(global_label "PA8"
+	(global_label "HIN_A"
 		(shape input)
 		(at 187.96 113.03 0)
 		(fields_autoplaced yes)
@@ -9550,7 +9570,7 @@
 			)
 		)
 	)
-	(global_label "PB14"
+	(global_label "LIN_B"
 		(shape input)
 		(at 322.58 31.75 180)
 		(fields_autoplaced yes)
@@ -9572,7 +9592,7 @@
 			)
 		)
 	)
-	(global_label "PC7"
+	(global_label "HALL_B"
 		(shape input)
 		(at 350.52 69.85 0)
 		(fields_autoplaced yes)
@@ -9616,7 +9636,7 @@
 			)
 		)
 	)
-	(global_label "PC2"
+	(global_label "A_SHC_AMP"
 		(shape input)
 		(at 187.96 184.15 0)
 		(fields_autoplaced yes)
@@ -9660,7 +9680,7 @@
 			)
 		)
 	)
-	(global_label "PA0"
+	(global_label "A_PHA_VSENSE"
 		(shape input)
 		(at 350.52 49.53 0)
 		(fields_autoplaced yes)
@@ -9682,7 +9702,7 @@
 			)
 		)
 	)
-	(global_label "PC7"
+	(global_label "HALL_B"
 		(shape input)
 		(at 187.96 196.85 0)
 		(fields_autoplaced yes)
@@ -9704,7 +9724,7 @@
 			)
 		)
 	)
-	(global_label "PB11"
+	(global_label "I2C_SDA"
 		(shape input)
 		(at 370.84 138.43 0)
 		(fields_autoplaced yes)
@@ -9716,7 +9736,7 @@
 		)
 		(uuid "710f3009-857a-4f51-8dfd-ec7a3e410115")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 378.7842 138.43 0)
+			(at 381.4452 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9748,7 +9768,7 @@
 			)
 		)
 	)
-	(global_label "_PB12"
+	(global_label "A_OVERLIMIT"
 		(shape input)
 		(at 347.98 88.773 180)
 		(fields_autoplaced yes)
@@ -9814,7 +9834,7 @@
 			)
 		)
 	)
-	(global_label "PB15"
+	(global_label "LIN_C"
 		(shape input)
 		(at 187.96 173.99 0)
 		(fields_autoplaced yes)
@@ -9836,7 +9856,7 @@
 			)
 		)
 	)
-	(global_label "PB1"
+	(global_label "FET_TEMP"
 		(shape input)
 		(at 187.96 138.43 0)
 		(fields_autoplaced yes)
@@ -9848,7 +9868,7 @@
 		)
 		(uuid "742b3036-c741-4554-a1b6-3677421e4ce7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.1226 138.3506 0)
+			(at 199.956 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9858,7 +9878,7 @@
 			)
 		)
 	)
-	(global_label "PA1"
+	(global_label "A_PHB_VSENSE"
 		(shape input)
 		(at 387.35 87.503 180)
 		(fields_autoplaced yes)
@@ -9902,7 +9922,7 @@
 			)
 		)
 	)
-	(global_label "PB10"
+	(global_label "I2C_SCL"
 		(shape input)
 		(at 372.11 135.89 0)
 		(fields_autoplaced yes)
@@ -9914,7 +9934,7 @@
 		)
 		(uuid "7af5bcf4-2cf0-4f35-838e-de40df532165")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 380.0542 135.89 0)
+			(at 382.6547 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9990,7 +10010,7 @@
 			)
 		)
 	)
-	(global_label "PA8"
+	(global_label "HIN_A"
 		(shape input)
 		(at 322.58 36.83 180)
 		(fields_autoplaced yes)
@@ -10034,7 +10054,7 @@
 			)
 		)
 	)
-	(global_label "PB10"
+	(global_label "I2C_SCL"
 		(shape input)
 		(at 187.96 161.29 0)
 		(fields_autoplaced yes)
@@ -10046,7 +10066,7 @@
 		)
 		(uuid "82f24d2f-9a4b-4bc7-a71a-0ac70c02e236")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.3321 161.2106 0)
+			(at 198.5047 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10144,7 +10164,7 @@
 			)
 		)
 	)
-	(global_label "PC1"
+	(global_label "A_SHB_AMP"
 		(shape input)
 		(at 350.52 54.61 0)
 		(fields_autoplaced yes)
@@ -10188,7 +10208,7 @@
 			)
 		)
 	)
-	(global_label "PA10"
+	(global_label "HIN_C"
 		(shape input)
 		(at 187.96 118.11 0)
 		(fields_autoplaced yes)
@@ -10210,7 +10230,7 @@
 			)
 		)
 	)
-	(global_label "PB14"
+	(global_label "LIN_B"
 		(shape input)
 		(at 187.96 171.45 0)
 		(fields_autoplaced yes)
@@ -10254,7 +10274,7 @@
 			)
 		)
 	)
-	(global_label "_PB12"
+	(global_label "A_OVERLIMIT"
 		(shape input)
 		(at 322.58 26.67 180)
 		(fields_autoplaced yes)
@@ -10276,7 +10296,7 @@
 			)
 		)
 	)
-	(global_label "PA9"
+	(global_label "HIN_B"
 		(shape input)
 		(at 187.96 115.57 0)
 		(fields_autoplaced yes)
@@ -10320,7 +10340,7 @@
 			)
 		)
 	)
-	(global_label "PC3"
+	(global_label "VSENSE"
 		(shape input)
 		(at 350.52 59.69 0)
 		(fields_autoplaced yes)
@@ -10386,7 +10406,7 @@
 			)
 		)
 	)
-	(global_label "PC0"
+	(global_label "A_SHA_AMP"
 		(shape input)
 		(at 350.52 57.15 0)
 		(fields_autoplaced yes)
@@ -10408,7 +10428,7 @@
 			)
 		)
 	)
-	(global_label "PB11"
+	(global_label "I2C_SDA"
 		(shape input)
 		(at 187.96 163.83 0)
 		(fields_autoplaced yes)
@@ -10420,7 +10440,7 @@
 		)
 		(uuid "b94399a5-ea14-40f1-a67f-593f1d9bef43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.3321 163.7506 0)
+			(at 198.5652 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10452,7 +10472,7 @@
 			)
 		)
 	)
-	(global_label "PA2"
+	(global_label "A_PHC_VSENSE"
 		(shape input)
 		(at 350.52 41.91 0)
 		(fields_autoplaced yes)
@@ -10496,7 +10516,7 @@
 			)
 		)
 	)
-	(global_label "PA0"
+	(global_label "A_PHA_VSENSE"
 		(shape input)
 		(at 387.731 75.184 180)
 		(fields_autoplaced yes)
@@ -10606,7 +10626,7 @@
 			)
 		)
 	)
-	(global_label "PB1"
+	(global_label "FET_TEMP"
 		(shape input)
 		(at 350.52 39.37 0)
 		(fields_autoplaced yes)
@@ -10760,7 +10780,7 @@
 			)
 		)
 	)
-	(global_label "PC6"
+	(global_label "HALL_C"
 		(shape input)
 		(at 187.96 194.31 0)
 		(fields_autoplaced yes)
@@ -10914,7 +10934,7 @@
 			)
 		)
 	)
-	(global_label "PB13"
+	(global_label "LIN_A"
 		(shape input)
 		(at 322.58 29.21 180)
 		(fields_autoplaced yes)
@@ -11002,7 +11022,7 @@
 			)
 		)
 	)
-	(global_label "PA1"
+	(global_label "A_PHB_VSENSE"
 		(shape input)
 		(at 187.96 95.25 0)
 		(fields_autoplaced yes)
@@ -11046,7 +11066,7 @@
 			)
 		)
 	)
-	(global_label "PC6"
+	(global_label "HALL_C"
 		(shape input)
 		(at 350.52 67.31 0)
 		(fields_autoplaced yes)
@@ -11068,7 +11088,7 @@
 			)
 		)
 	)
-	(global_label "PC3"
+	(global_label "VSENSE"
 		(shape input)
 		(at 187.96 186.69 0)
 		(fields_autoplaced yes)
@@ -11090,7 +11110,7 @@
 			)
 		)
 	)
-	(global_label "PC0"
+	(global_label "A_SHA_AMP"
 		(shape input)
 		(at 187.96 179.07 0)
 		(fields_autoplaced yes)
@@ -11134,7 +11154,7 @@
 			)
 		)
 	)
-	(global_label "PA1"
+	(global_label "A_PHB_VSENSE"
 		(shape input)
 		(at 350.52 46.99 0)
 		(fields_autoplaced yes)
@@ -11200,7 +11220,7 @@
 			)
 		)
 	)
-	(global_label "PA10"
+	(global_label "HIN_C"
 		(shape input)
 		(at 322.58 41.91 180)
 		(fields_autoplaced yes)
@@ -12000,7 +12020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1abad2e9-8d91-468e-8968-9bfbed7cb963")
-		(property "Reference" "R91"
+		(property "Reference" "R133"
 			(at 122.555 115.57 0)
 			(effects
 				(font
@@ -13055,7 +13075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49128265-b0f2-4ce1-bd2f-84220ede31a1")
-		(property "Reference" "R91"
+		(property "Reference" "R54"
 			(at 368.3 129.54 0)
 			(effects
 				(font
@@ -14786,7 +14806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a98de59-909f-4194-85be-e4dd71434e70")
-		(property "Reference" "R91"
+		(property "Reference" "R54"
 			(at 364.49 124.46 0)
 			(effects
 				(font
@@ -18294,6 +18314,64 @@
 			(project "F405_pill"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 167.64)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "548828d3-22b9-430d-b0ff-f29588e18b03")
+		(property "Sheetname" "NRF"
+			(at 107.95 166.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nrf.kicad_sch"
+			(at 107.95 173.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RX" input
+			(at 120.65 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c3ded86-a53d-4d90-95fe-3933ac6b2aae")
+		)
+		(pin "TX" input
+			(at 120.65 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d831ddff-8ab3-4feb-91a4-1b6e4a3d3855")
+		)
+		(instances
+			(project "F405_pill"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
 				)
 			)
 		)
