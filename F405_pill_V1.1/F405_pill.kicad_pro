@@ -526,7 +526,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "F405_pill.step",
       "svg": "",
       "vrml": ""
     },

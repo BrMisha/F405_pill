@@ -7417,6 +7417,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 173.99) (xy 142.24 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a81fab2-5cd0-4da4-9c18-74e7738b1d2d")
+	)
+	(wire
+		(pts
 			(xy 313.69 223.52) (xy 313.69 231.14)
 		)
 		(stroke
@@ -7434,16 +7444,6 @@
 			(type default)
 		)
 		(uuid "7b54d24e-105d-49d8-b389-026264be73a2")
-	)
-	(wire
-		(pts
-			(xy 120.65 168.91) (xy 142.24 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b769dac-7b8a-4903-bd4a-b1b1114faf6e")
 	)
 	(wire
 		(pts
@@ -18319,7 +18319,7 @@
 		)
 	)
 	(sheet
-		(at 107.95 167.64)
+		(at 107.95 170.18)
 		(size 12.7 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -18331,7 +18331,7 @@
 		)
 		(uuid "548828d3-22b9-430d-b0ff-f29588e18b03")
 		(property "Sheetname" "NRF"
-			(at 107.95 166.9284 0)
+			(at 107.95 169.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18340,7 +18340,7 @@
 			)
 		)
 		(property "Sheetfile" "nrf.kicad_sch"
-			(at 107.95 173.3046 0)
+			(at 107.95 175.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18359,7 +18359,7 @@
 			(uuid "5c3ded86-a53d-4d90-95fe-3933ac6b2aae")
 		)
 		(pin "TX" input
-			(at 120.65 168.91 0)
+			(at 120.65 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
