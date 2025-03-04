@@ -155,31 +155,22 @@
 //#define HW_ADC_EXT2_PIN			6
 
 // UART Peripheral
-/*#define HW_UART_DEV				SD3
+#define HW_UART_DEV			SD3
 #define HW_UART_GPIO_AF			GPIO_AF_USART3
 #define HW_UART_TX_PORT			GPIOC
 #define HW_UART_TX_PIN			10
 #define HW_UART_RX_PORT			GPIOC
-#define HW_UART_RX_PIN			11*/
-
-// Embedded NRF
-#define HW_UART_DEV                           SD2
-#define HW_UART_GPIO_AF                       GPIO_AF_USART2
-#define HW_UART_TX_PORT                       GPIOD
-#define HW_UART_TX_PIN                        5
-#define HW_UART_RX_PORT                       GPIOD
-#define HW_UART_RX_PIN                        6
+#define HW_UART_RX_PIN			11
 #define HW_UART_BAUD                          115200
 
-// UART Peripheral
-#define HW_UART_P_DEV				SD3
-#define HW_UART_P_GPIO_AF			GPIO_AF_USART3
-#define HW_UART_P_TX_PORT			GPIOC
-#define HW_UART_P_TX_PIN			10
-#define HW_UART_P_RX_PORT			GPIOC
-#define HW_UART_P_RX_PIN			11
+// Embedded NRF
+#define HW_UART_P_DEV                           SD2
+#define HW_UART_P_GPIO_AF                       GPIO_AF_USART2
+#define HW_UART_P_TX_PORT                       GPIOD
+#define HW_UART_P_TX_PIN                        5
+#define HW_UART_P_RX_PORT                       GPIOD
+#define HW_UART_P_RX_PIN                        6
 #define HW_UART_P_BAUD                          115200
-
 
 // ICU Peripheral for servo decoding
 #define HW_USE_SERVO_TIM4
