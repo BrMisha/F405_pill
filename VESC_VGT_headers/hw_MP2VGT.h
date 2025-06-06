@@ -261,7 +261,7 @@
 
 // Default setting overrides
 #ifndef MCCONF_L_MIN_VOLTAGE
-#define MCCONF_L_MIN_VOLTAGE			8.0		// Minimum input voltage due to DCDC brick cutout
+#define MCCONF_L_MIN_VOLTAGE			40.0		// Minimum input voltage due to DCDC brick cutout
 #endif
 #ifndef MCCONF_L_MAX_VOLTAGE
 //#define MCCONF_L_MAX_VOLTAGE			90.0	// Maximum input voltage for 100v power stage / 20s max battery (100V power stage solder jumper soldered
@@ -281,16 +281,16 @@
 #define MCCONF_FOC_SAMPLE_V0_V7			false	// Run control loop in both v0 and v7 (requires phase shunts)
 #endif
 #ifndef MCCONF_L_IN_CURRENT_MAX
-#define MCCONF_L_IN_CURRENT_MAX			150.0	// Input current limit in Amperes (Upper)
+#define MCCONF_L_IN_CURRENT_MAX			200.0	// Input current limit in Amperes (Upper)
 #endif
 #ifndef MCCONF_L_IN_CURRENT_MIN
-#define MCCONF_L_IN_CURRENT_MIN			-150.0	// Input current limit in Amperes (Lower)
+#define MCCONF_L_IN_CURRENT_MIN			-200.0	// Input current limit in Amperes (Lower)
 #endif
 
 // Setting limits
-#define HW_LIM_CURRENT			-200.0, 200.0
-#define HW_LIM_CURRENT_IN		-200.0, 200.0
-#define HW_LIM_CURRENT_ABS		0.0, 300.0
+#define HW_LIM_CURRENT			-300.0, 300.0
+#define HW_LIM_CURRENT_IN		-300.0, 300.0
+#define HW_LIM_CURRENT_ABS		0.0, 350.0
 
 
 #define HW_LIM_VIN				6.0, 135.0
